@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import narutoGif from '../assets/naruto-gif.gif';
 import { useState } from 'react';
 
 const Home = () => {
@@ -17,10 +18,10 @@ const Home = () => {
         <div className="header">
           <div className="header-title">
             <h1>talk to Naruto about anything</h1>
-            <iframe src="https://giphy.com/embed/J6VWOd9svfh5KESnP9" width="100" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/2020-naruto-uzumaki-J6VWOd9svfh5KESnP9"></a></p>
+            <Image className='naruto' src={narutoGif} alt="Naruto GIF"/>
           </div>
           <div className="header-subtitle">
-            <h2>write a message to Naruto from the Naruto shonen series, and ask him about anything.(ex: what is friendship?, what is life supposed to be?)</h2>
+            <p>write a message to Naruto from the Naruto shonen series, and ask him about anything.(ex: what is friendship?, what is life supposed to be?)</p>
           </div>
         </div>
       </div>
