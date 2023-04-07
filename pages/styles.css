@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(14, 10, 1);
+    background-color: rgb(20, 16, 2);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -46,7 +46,7 @@ body {
 .header-title {
     display: flex;
     width: fit-content;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: center;
     align-items: center;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .naruto {
-    height: 75%;
+    height: 12rem;
     width: auto;
 }
 
@@ -84,7 +84,7 @@ body {
     gap: 16px;
     height: min-content;
     padding: 0px;
-    width: min-content;
+    width: max-content;
 }
 
 .prompt-box {
@@ -96,7 +96,7 @@ body {
     border-top-width: 1px;
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(49, 35, 7, 0.699);
     border-radius: 16px;
     display: flex;
     flex: 0 0 auto;
@@ -106,7 +106,8 @@ body {
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 610px;
+    min-width: 400px;
+    width: 710px;
     max-width: 1200px;
     will-change: transform;
     overflow: auto;
@@ -189,7 +190,7 @@ textarea {
     gap: 10px;
     height: min-content;
     overflow: hidden;
-    padding: 16px 24px;
+    padding: 24px 24px;
     position: relative;
     text-decoration: none;
     width: min-content;
@@ -297,10 +298,11 @@ textarea {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-    gap: 16px;
+    gap: 8px;
     height: min-content;
     overflow: hidden;
     padding: 0px;
+    margin-top: 1rem;
     position: relative;
     width: 100%;
 }
@@ -309,11 +311,11 @@ textarea {
     font-family: "Manrope", serif;
     font-size: 28px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0px;
-    line-height: 1.4em;
+    line-height: 1.2em;
     text-align: start;
-    color: #ffffff;
+    color: rgba(255, 243, 225, 0.863);
     text-decoration: none;
     text-transform: none;
     margin: 0;
@@ -322,7 +324,7 @@ textarea {
 .output-content {
     outline: none;
     display: flex;
-    /* max-width: 25%; */
+    max-width: 55%;
     flex-direction: column;
     justify-content: flex-start;
     flex-shrink: 0;
@@ -331,8 +333,8 @@ textarea {
 
 .output-content p {
     text-align: center;
-    white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
+    /* white-space: pre-line; */
+    color: rgba(255, 243, 225, 0.863);
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
