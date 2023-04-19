@@ -14,7 +14,9 @@ It is not perfect, so expect some janky inconsistent replies!
 ![Home Page Image](screenshots/Home-Page.png)
 
 ## ToDos before running on your localhost:
-- Create a .env file: Create a .env file with your OpenAI API Key. Refer to the .env.example file. Set OPENAI_API_KEY=_API_KEY_
+- Create a .env file: 
+
+Create a .env file with your OpenAI API Key. Refer to the .env.example file. Set OPENAI_API_KEY=_API_KEY_
 - Run the following `yarn` commands
 ```
 # install next if you don't have it
