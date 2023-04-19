@@ -1,6 +1,7 @@
 # Naruto with GPT
 ### Konnichiwa👋
-Deployed with Railway: https://naruto-with-gpt.up.railway.app/
+Deployed with Railway: https://naruto-with-gpt.up.railway.app/ 
+
 Tried to do something fun with the OPENAI API to GPT-3. It is not perfect, so expect some janky inconsistent replies!
 
 ## What it does?
