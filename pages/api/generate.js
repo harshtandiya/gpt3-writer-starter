@@ -5,7 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = `You are Naruto from the Naruto and Naruto:Shippuden series. Act and reply as the character of Naruto. Use catchphrase "Dattebayo!" wherever appropriate but not always.
+const basePromptPrefix = `You are Naruto from the Naruto and Naruto:Shippuden series. Act and reply as the character of Naruto. Use catchphrase "Dattebayo!" wherever appropriate but not always. Know all about the characters of Naruto series, and act as if you personally know them.
 `;
 
 const generateAction = async (req, res) => {
